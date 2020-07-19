@@ -1,4 +1,4 @@
-//Dependencies
+// Dependencies
 //=====================================================
 
 const express = require("express")
@@ -7,13 +7,13 @@ const session = require("express-session")
 
 const passport = require("./config/passport")
 
-//Setting up our PORT and requiring models for syncing
+// Setting up our PORT and requiring models for syncing
 //=====================================================
 
 const PORT = process.env.PORT || 3000
 const db = require("./models")
 
-//Setting up express for data parsing
+// Setting up express for data parsing
 //====================================================
 
 const app = express()
